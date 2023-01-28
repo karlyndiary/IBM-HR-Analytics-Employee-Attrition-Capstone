@@ -1,12 +1,15 @@
 # IBM HR Analytics Employee Attrition Capstone
 
-## Summary
+## 1. Summary
 
 IBM is an American MNC operating in around 170 countries with major business vertical as computing, software, and hardware. Attrition is a major risk to service-providing organizations where trained and experienced people are the assets of the company. The organization would like to identify the factors which influence the attrition of employees.
 
-## 2. Process
+## 2. Prepare
+The data used is stored in Kaggle under the IBM Employee Dataset. The dataset contains information about their education, department, and more. The data is organized into 18 CSVs and It includes both wide and long formats. 
 
-### 2.1 Installing the necessary packages needed for cleaning and analysis.
+## 3. Process
+
+### 3.1 Installing the necessary packages needed for cleaning and analysis.
 
 ```bash
 #Installing the packages
@@ -19,12 +22,12 @@ from matplotlib import style
 import seaborn as sns
 ```
 
-### 2.2 Loading the dataset
+### 3.2 Loading the dataset
 ```bash
 attrition_dataset = pd.read_csv('/kaggle/input/employee/train.csv')
 ```
 
-### 2.3 Exploring the dataframe
+### 3.3 Exploring the dataframe
 ```bash
 attrition_dataset.head() 
   ```

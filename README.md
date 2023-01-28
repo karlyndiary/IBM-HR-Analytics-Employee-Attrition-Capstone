@@ -1,4 +1,4 @@
-# IBM-HR-Analytics-Employee-Attrition-Capstone
+# IBM HR Analytics Employee Attrition Capstone
 
 ## Summary
 

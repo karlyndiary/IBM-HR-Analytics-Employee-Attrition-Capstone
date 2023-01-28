@@ -21,7 +21,7 @@ import seaborn as sns
 
 ### 2.2 Loading the dataset
 ```bash
-attrition_dataset = pd.read_csv('/cloud/project/IBM Attrition Data.csv')
+attrition_dataset = pd.read_csv('/kaggle/input/employee/train.csv')
 ```
 
 ### 2.3 Exploring the dataframe

@@ -49,7 +49,7 @@ plt.xlabel("Age of Employees")
 plt.ylabel("No of Employees")
 plt.show()
   ```
-  ![__results___8_0 (1)](https://user-images.githubusercontent.com/116041695/215379406-97e986c1-113f-4fc9-be0e-5efc96b8a597.png)
+![download (1)](https://user-images.githubusercontent.com/116041695/215382975-beaf2c09-0215-426c-8895-4e6315aa1646.png)
 
  **Explore attrition by age**
 ```
@@ -70,7 +70,7 @@ plt.title("Employees Attrition Distribution")
 plt.ylabel("Attrition Level")
 plt.show()
   ```
-![__results___12_0](https://user-images.githubusercontent.com/116041695/215379501-029e3c96-482a-481b-a1c1-69bbc9f90f9b.png)
+![download (2)](https://user-images.githubusercontent.com/116041695/215383006-5c31e363-0946-444a-8dab-cdccdbb7bdf1.png)
 
 **Distribution of employees by the education field**
 ```
@@ -80,7 +80,7 @@ plt.title("Employees Education Distribution")
 plt.ylabel("Education Fields")
 plt.show()
 ```
-![__results___14_0](https://user-images.githubusercontent.com/116041695/215379532-74933a7d-bb43-40a9-9d57-00b5f4fcd05e.png)
+![download (3)](https://user-images.githubusercontent.com/116041695/215383035-608713b2-aaeb-41a2-ad80-ef5b8c55deeb.png)
 
 **Distribution of marital status of employees**
 
@@ -90,4 +90,4 @@ attrition_dataset.MaritalStatus.value_counts().plot(kind='barh', color='r', alph
 plt.title("Marital Status")
 plt.show()```
 ```
-![__results___16_0](https://user-images.githubusercontent.com/116041695/215379559-92e5d8aa-ab57-4abf-a255-00dce1eeccad.png)
+![download (4)](https://user-images.githubusercontent.com/116041695/215383072-1b5ee2c9-04c4-437a-ad96-75f9d8f394ab.png)

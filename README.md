@@ -59,7 +59,7 @@ plt.title("Attrition by Age")
 plt.ylabel("Age of the Employees")
 plt.show()  
 ```
-![__results___10_0](https://user-images.githubusercontent.com/116041695/215379457-d9b3e9c5-1d12-4a4c-97ab-9ebcb2581051.png)
+![download](https://user-images.githubusercontent.com/116041695/215382886-28d156c1-10b8-42fc-88d0-a0d319f89204.png)
 
 **Explore data for left employees**
 

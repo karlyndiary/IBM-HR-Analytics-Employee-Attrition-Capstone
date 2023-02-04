@@ -39,7 +39,7 @@ attrition_dataset.head()
   ```
 
  ## 3. Analyze and Share
- ## 3.1 Age Distribution
+ ### 3.1 Age Distribution
 
 ```bash
 plt.figure(figsize=(10,10))
@@ -51,7 +51,7 @@ plt.show()
   ```
 ![download (1)](https://user-images.githubusercontent.com/116041695/215382975-beaf2c09-0215-426c-8895-4e6315aa1646.png)
 
-## 3.2 Explore attrition by age
+### 3.2 Explore attrition by age
 ```
 plt.figure(figsize=(5,5))
 plt.bar(attrition_dataset.Attrition,attrition_dataset.Age, alpha=.55)
@@ -61,7 +61,7 @@ plt.show()
 ```
 ![download](https://user-images.githubusercontent.com/116041695/215382886-28d156c1-10b8-42fc-88d0-a0d319f89204.png)
 
-## 3.3 Explore data for left employees
+### 3.3 Explore data for left employees
 
 ```
 plt.figure(figsize=(8,8))
@@ -72,7 +72,7 @@ plt.show()
   ```
 ![download (2)](https://user-images.githubusercontent.com/116041695/215383006-5c31e363-0946-444a-8dab-cdccdbb7bdf1.png)
 
-## 3.4 Distribution of employees by the education field
+### 3.4 Distribution of employees by the education field
 ```
 plt.figure(figsize=(8,8))
 attrition_dataset.EducationField.value_counts().plot(kind='barh', color='r', alpha = 0.6)
@@ -82,7 +82,7 @@ plt.show()
 ```
 ![download (3)](https://user-images.githubusercontent.com/116041695/215383035-608713b2-aaeb-41a2-ad80-ef5b8c55deeb.png)
 
-## 3.5 Distribution of marital status of employees
+### 3.5 Distribution of marital status of employees
 
 ```
 plt.figure(figsize=(8,8))
